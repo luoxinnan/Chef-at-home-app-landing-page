@@ -47,16 +47,13 @@
                 </li>
               </ul>
             </div>
-          </nav>
-    
-    
-    
+          </nav>    
           <!-- Title -->
     
           <div class="row">
             <div class="col-lg-6">
               <h1>Bringing the Private Chef Experience Home.</h1>
-              <p class="center-p">HomeChef Pro brings the luxury of a private chef to your home, with personalized menus, hassle-free service, and competitive pricing. Enjoy a delicious and healthy meal with your loved ones, without the stress of cooking or cleaning up. Perfect for any special occasion or family meal.</p>
+              <p class="center-p">Chef@Home Pro brings the luxury of a private chef to your home, with personalized menus, hassle-free service, and competitive pricing. Enjoy a delicious and healthy meal with your loved ones, without the stress of cooking or cleaning up. Perfect for any special occasion or family meal.</p>
               <button type="button" class="btn btn-light btn-lg download-button"><i class="fa-brands fa-apple"></i>
                 Download</button>
               <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-android"></i></i>
@@ -121,9 +118,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-
-      
+      </div>      
 
   </section>
 
@@ -200,36 +195,69 @@
     <div id="subscribe">
         <div class="pricing-text">
             <h2>Subscribe to get updates</h2>
-            <p>Subscribe to HomeChef Pro today, and enjoy the convenience of having a private chef cater to your every culinary need, right in the comfort of your own home.</p>
+            <p>Subscribe to Chef@Home today, and enjoy the convenience of having a private chef cater to your every culinary need, right in the comfort of your own home.</p>
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Receive discounts, promotions, and updates about our app </label>
-                    </div>
-                    <button type="submit" class="btn btn-outline-light">Subscribe</button>
+                  <form class="form-inline">
+                    <input class="form-control form-control-lg mr-sm-3 px-4" type="email" name="email" placeholder="Type your email" required>
+                  <button class="btn subscribe-btn btn-primary btn-lg mt-3 mt-sm-0" name="submit" type="submit">
+                    Subscribe
+                  </button>  
                   </form>
             </div>
         </div>
     </div>
 
-    
+    <div id="contact">
+        <div class="row">
+            <div class="col-lg-6 contact-form">
+                <div class="padding1">
+                    <h5>Contact</h5>
+                    <div class="mb-3">
+                        <input class="form-control contact-form-item" type="text" name="name" placeholder="Name" required aria-required="true">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control contact-form-item" type="email" name="email" placeholder="Email" required aria-required="true">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control contact-form-item" type="text" name="subject" placeholder="Subject" required aria-required="true">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control mt.3 pl-0 contact-form-item" name="message" rows="4" placeholder="Your message" required aria-required="true"></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn send-button btn-dark btn-lg">
+                            Send
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 contact-right">
+                <div>
+                    <ul class="about" style="list-style-type: none">
+                        <li class="nav-item"><a class="nav-link" href="">About us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Privacy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Terms and Conditions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+                    </ul>
+
+                    <div class="footer">
+                        <a href="#"><i class="fa-brands fa-twitter footer-icon"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f footer-icon"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram footer-icon"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope footer-icon"></i></a>
+                        <p class="footer-icon">© Chef@Home</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>    
 
     <!-- Footer -->
 
-  <footer id="footer">
-    <i class="fa-brands fa-twitter footer-icon"></i>
-    <i class="fa-brands fa-facebook-f footer-icon"></i>
-    <i class="fa-brands fa-instagram footer-icon"></i>
-    <i class="fa-solid fa-envelope footer-icon"></i>
-    <p>© Chef@Home</p>
-
-  </footer>
 </body>
 </html>

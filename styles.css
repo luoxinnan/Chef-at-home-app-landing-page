@@ -5,6 +5,14 @@ body{
     color: #434242;
 }
 
+h1{
+    font-weight: 700;
+}
+
+h5{
+    padding: 2rem;
+}
+
 /* Tittle */
 #title {
     text-align: left;
@@ -70,7 +78,7 @@ body{
 }
 
 .feature .icons:hover {
-    color: #FFCC29;
+    color: #00AF91;
 }
 
 /* * Testimonials */ 
@@ -120,15 +128,105 @@ body{
 
 #subscribe{
     background-color: #FFCC29;
-    padding: 7% 15%;
+    padding: 7% ;
+    color: white;
 }
 
 form{
     width: 50%;
     margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.form-control{
+    color: white;
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: none;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+} 
+
+.form-control::placeholder { 
+    color: white;
+    opacity: 1; 
+}
+
+.subscribe-btn{
+    color: #FFCC29;
+    background-color: white;
+    border: #FFCC29;
+}
+
+.subscribe-btn:hover{
+    background-color: #00AF91;
+}
+
+/* Contact */
+#contact{
+    background-color:#434242;
+    margin: 10% auto 0;
+    padding: 7%;
+}
+
+.p5{
+    padding: 3rem;
+}
+
+.contact-form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.padding1{
+    padding: 7%；
+}
+
+.contact-form-item::placeholder { 
+    color: #434242;
+    opacity: 1; 
+}
+
+.contact-form-item{
+        border: solid 2px #434242
+}
+
+.contact-right{
+    padding: 7%;
+}
+
+.footer-icon{
+    color: #B2B2B2;
+    padding: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.nav-item{
+    color: #B2B2B2;
+    padding: 1rem;
+}
+
+.footer-icon:hover{
+    color: #DDDDDD;
+}
+
+.nav-item:hover{
+    color: #DDDDDD;
+}
+
+.about{
+    text-align: left;
+    font-size: small;
 }
 
 
+/* responsive */
 @media(max-width: 990px) {
     
     .title-img {
