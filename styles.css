@@ -13,11 +13,16 @@ h5{
     padding: 2rem;
 }
 
+
 /* Tittle */
 #title {
     text-align: left;
     background-color: #FFCC29;
-    color: #434242;
+    color: white;
+}
+
+.title-p{
+    margin: 7% auto;
 }
 
 .container-fluid {
@@ -27,6 +32,7 @@ h5{
 /* Navigation Bar */
 .navbar {
     padding-bottom: 4.5rem;
+    position: ;
 }
 
 .navbar-brand {
@@ -40,10 +46,14 @@ h5{
 
 .nav-link {
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* Download Buttons */
+
+.download-buttons{
+    margin: auto;
+}
 .download-button {
     margin: 5% 3% 5% 0;
 }
@@ -99,19 +109,21 @@ h5{
 
 /* pricing */
 #pricing {
-    padding: 100px;
+    padding: 7%;
+
 }
 
 #pricing p{
     color: #7F8487;
 }
 
-.pricing-text{
-    padding: 0 12%;
-}
 
 .pricing-title {
     font-size: 2.3rem;
+}
+
+.pricing-text{
+    margin-bottom: 5%;
 }
 
 .card {
@@ -120,15 +132,17 @@ h5{
     width: 15rem;
 }
 
-.card-group {
-    padding: 8% 0;
+.sign-up-bth{
+    border-radius: 10px;
 }
 
-/* subscribe */
+
+
+/* ----------------subscribe------------------- */
 
 #subscribe{
     background-color: #FFCC29;
-    padding: 7% ;
+    padding: 15%;
     color: white;
 }
 
@@ -156,6 +170,7 @@ form{
     opacity: 1; 
 }
 
+
 .subscribe-btn{
     color: #FFCC29;
     background-color: white;
@@ -166,11 +181,17 @@ form{
     background-color: #00AF91;
 }
 
-/* Contact */
+.subscribe-content{
+    margin: 6% auto;
+}
+
+
+/*-------------------- Contact ---------*/
 #contact{
     background-color:#434242;
-    margin: 10% auto 0;
+    margin: auto 0;
     padding: 7%;
+    font-size: small;
 }
 
 .p5{
@@ -184,7 +205,7 @@ form{
 }
 
 .padding1{
-    padding: 7%；
+    padding: 7%;
 }
 
 .contact-form-item::placeholder { 
@@ -193,12 +214,13 @@ form{
 }
 
 .contact-form-item{
-        border: solid 2px #434242
+    border: solid 2px #434242
 }
 
 .contact-right{
     padding: 7%;
 }
+
 
 .footer-icon{
     color: #B2B2B2;
@@ -218,24 +240,30 @@ form{
 
 .nav-item:hover{
     color: #DDDDDD;
+
 }
 
 .about{
-    text-align: left;
-    font-size: small;
+    padding-left: 0;
 }
+
 
 
 /* responsive */
 @media(max-width: 990px) {
-    
     .title-img {
-        padding-top: 10%;
+        padding-top: 8%;
+        padding-left: 0;
         position: static;
         transform: rotate(0);
-        width: 70%;
+        width: 40%;
         margin: 0 30%;
     }
+
+    .title-img-div{
+        margin: auto;
+    }
+
 
     h1,.center-p {
         text-align: center;
@@ -245,6 +273,16 @@ form{
         margin: 10px auto;
         padding: 0;
         width: 25rem;
+    }
+
+    .about{
+        text-align: center;
+        line-height: 1rem;
+    }
+
+    #contact{
+        padding: 8% 15% 0 15%;
+
     }
 
 }
