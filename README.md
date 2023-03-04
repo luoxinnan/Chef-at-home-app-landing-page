@@ -2,6 +2,8 @@
 <p>This app-loading webpage is created using <strong>Bootstrap</strong>, with the brand and content being original work. The page is designed entirely by me and written from scratch as a testament to completing a self-learning stage in web development, specifically in mastering Bootstrap. </p>
 <p>Note that the webpage has interactive elements like buttons and a contact form, but doesn't have functions written by JavaScript.</p>
 <p>(04-03-2023)</p>
+<h2>Live demo<h2>
+<p>https://luoxinnan.github.io/Chef-at-home-app-landing-page/</p>
 <h2>Features</h2>
     <ul>
         <li>Bootstrap <strong>navbar</strong>for easy navigation</li>
