@@ -15,10 +15,15 @@ h5{
 
 
 /* Tittle */
+
+
 #title {
     text-align: left;
     background-color: #FFCC29;
     color: white;
+}
+.title-left-div{
+    padding-top: 2rem;
 }
 
 .title-p{
@@ -30,14 +35,12 @@ h5{
 }
 
 /* Navigation Bar */
-.navbar {
-    padding-bottom: 4.5rem;
-    position: ;
-}
+
+
 
 .navbar-brand {
     font-family: 'Yesteryear', cursive;
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 
 .nav-item {
@@ -47,6 +50,11 @@ h5{
 .nav-link {
     font-size: 1.2rem;
     font-weight: 400;
+}
+
+.logo-img{
+    width: 10%;
+    margin: 3%;
 }
 
 /* Download Buttons */
@@ -250,7 +258,7 @@ form{
 
 
 /* responsive */
-@media(max-width: 990px) {
+@media(max-width: 991px) {
     .title-img {
         padding-top: 8%;
         padding-left: 0;
