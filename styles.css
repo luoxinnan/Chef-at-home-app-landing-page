@@ -222,7 +222,7 @@ form {
     /* make the img looks filted */
     /* important!! color above img */
     background-color: #7F8487;
-    background-image: url(/imgs/download-bg.png);
+    background-image: url(imgs/download-bg.png);
     background-position: center;
     background-size: cover;
     color: white;
