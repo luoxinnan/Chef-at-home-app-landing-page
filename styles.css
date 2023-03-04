@@ -14,7 +14,7 @@ h5{
 }
 
 
-/* Tittle */
+/* ---------------Tittle----------------------------- */
 
 
 #title {
@@ -34,9 +34,22 @@ h5{
     padding: 3% 15% 7%;
 }
 
-/* Navigation Bar */
+/* new stuff */
+.animate {
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes animate-fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 
+
+/* ------------Navigation Bar ---------------------*/
 
 .navbar-brand {
     font-family: 'Yesteryear', cursive;
@@ -75,7 +88,7 @@ h5{
 
 
 
-/* features */
+/* ----------------------features----------------------- */
 #features {
     padding: 7% ;
     position: relative;
@@ -227,7 +240,7 @@ form{
 
 
 
-/*-------------------- Contact ---------*/
+/*-------------------- Contact ---------------------*/
 #contact{
     background-color:#434242;
     margin: auto 0;
@@ -290,7 +303,7 @@ form{
 
 
 
-/* responsive */
+/* --------------------responsive -----------------------*/
 @media(max-width: 991px) {
     .title-img {
         padding-top: 8%;
