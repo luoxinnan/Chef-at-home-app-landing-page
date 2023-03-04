@@ -73,6 +73,15 @@ h5 {
     margin: 7% auto;
 }
 
+
+.icon1{
+    font-size: 1rem;
+}
+
+.icon2{
+    font-size: .8rem;
+}
+
 .container-fluid {
     padding: 3% 15% 7%;
 }
@@ -142,7 +151,7 @@ h5 {
     padding: 10% 18% 8% 18%;
 }
 
-/* pricing */
+/* -------------------pricing------------------ */
 
 #pricing p {
     color: #7F8487;
@@ -167,6 +176,11 @@ h5 {
     border-radius: 10px;
 }
 
+.card-group{
+    padding: 0;
+    margin: auto;
+}
+
 /* ----------------subscribe------------------- */
 
 #subscribe {
@@ -184,7 +198,7 @@ form {
 
 .form-control {
     background-color: transparent;
-    border-radius: 20px;
+    border-radius: 10px;
     border: solid 2px white;
     box-shadow: none;
     color: white;
@@ -211,6 +225,10 @@ form {
 
 .subscribe-content {
     margin: 6% auto;
+}
+
+.subscribe-form{
+    margin-bottom: 5%;
 }
 
 
@@ -270,6 +288,13 @@ form {
     border: solid 2px #434242
 }
 
+.contac-padding{
+    padding: 7%;
+}
+
+.contact-right{
+    padding-left: 13%;
+}
 
 .footer-icon {
     color: #B2B2B2;
@@ -294,20 +319,34 @@ form {
     padding-left: 0;
 }
 
+.contact-text{
+    font-size:medium;
+}
+
 /* --------------------responsive -----------------------*/
 @media(max-width: 991px) {
 
+
+    .logo-img{
+        width: 20%;
+    }
+
     .title-img {
-        margin: 0 30%;
+        margin: 0 25%;
         padding-left: 0;
         padding-top: 8%;
         position: static;
         transform: rotate(0);
-        width: 40%;
+        width: 50%;
     }
 
     .title-img-div {
         margin: auto;
+    }
+
+    .feature .icons {
+        font-size: 2.3rem;
+
     }
 
     h1,
@@ -318,7 +357,7 @@ form {
     .card {
         margin: 10px auto;
         padding: 0;
-        width: 25rem;
+        width: 16rem;
     }
 
     .about {
@@ -329,4 +368,36 @@ form {
     #contact {
         padding: 8% 15% 0 15%;
     }
+
+    .testimonial-img {
+        width: 40%;
+    }
+
+    .carousel-item {
+        margin-bottom: 80px;
+    }
+
+    #contact{
+        padding: 5%;
+    }
+    
+    .contac-padding{
+        padding: 2%;
+    }
+
+
+    ::placeholder{
+        font-size: medium;
+    }
+
+    .contact-right{
+        padding-left: 5%;
+    }
+
+    .contact-text{
+        font-size:medium;
+    }
+
+
+    
 }
