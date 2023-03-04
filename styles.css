@@ -194,6 +194,39 @@ form{
 }
 
 
+/*-------------------- Download ---------*/
+#download{
+    padding: 8%;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+    /* important!! color above img */
+    background-color: #7F8487; 
+    background-image: url(/imgs/download-bg5.png);
+    background-attachment: fixed;
+
+    /* make the img looks filted */
+    background-blend-mode: multiply; 
+
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-bg{
+    position: fixed;
+}
+
+.download-now-content{
+    padding-top: 2rem;
+}
+
+
+
 /*-------------------- Contact ---------*/
 #contact{
     background-color:#434242;
