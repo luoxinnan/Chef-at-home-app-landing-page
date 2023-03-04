@@ -13,6 +13,10 @@ h5 {
     padding: 2rem;
 }
 
+.padding7 {
+    padding: 7%;
+}
+
 
 /* ------------Navigation Bar ---------------------*/
 
@@ -96,7 +100,6 @@ h5 {
 
 /* ----------------------features----------------------- */
 #features {
-    padding: 7%;
     position: relative;
 }
 
@@ -118,7 +121,7 @@ h5 {
     color: #00AF91;
 }
 
-/* * Testimonials */
+/* --------------- Testimonials-------------- */
 
 #testimonials {
     background-color: #F6F4E6;
@@ -130,15 +133,16 @@ h5 {
     width: 15%;
 }
 
+.testimonial-text{
+    color: #7F8487;
+}
+
 .carousel-item {
     height: 500px;
     padding: 10% 18% 8% 18%;
 }
 
 /* pricing */
-#pricing {
-    padding: 7%;
-}
 
 #pricing p {
     color: #7F8487;
@@ -215,19 +219,19 @@ form {
     align-items: center;
     background-attachment: fixed;
     background-blend-mode: multiply;
+    /* make the img looks filted */
+    /* important!! color above img */
     background-color: #7F8487;
-    background-image: url(/imgs/download-bg5.png);
+    background-image: url(/imgs/download-bg.png);
     background-position: center;
     background-size: cover;
     color: white;
     display: flex;
     height: 500px;
     justify-content: center;
-    padding: 8%;
     width: 100%;
 
-    /* important!! color above img */
-    /* make the img looks filted */
+    
 }
 
 .download-bg {
@@ -243,7 +247,6 @@ form {
     background-color: #434242;
     font-size: small;
     margin: auto 0;
-    padding: 7%;
 }
 
 .p5 {
@@ -256,9 +259,7 @@ form {
     padding: 2rem;
 }
 
-.padding1 {
-    padding: 7%;
-}
+
 
 .contact-form-item::placeholder {
     color: #434242;
@@ -267,10 +268,6 @@ form {
 
 .contact-form-item {
     border: solid 2px #434242
-}
-
-.contact-right {
-    padding: 7%;
 }
 
 
