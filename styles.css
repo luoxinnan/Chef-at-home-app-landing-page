@@ -1,52 +1,17 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    line-height: 1.9;
+body {
     color: #434242;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.9;
+    text-align: center;
 }
 
-h1{
+h1 {
     font-weight: 700;
 }
 
-h5{
+h5 {
     padding: 2rem;
 }
-
-
-/* ---------------Tittle----------------------------- */
-
-
-#title {
-    text-align: left;
-    background-color: #FFCC29;
-    color: white;
-}
-.title-left-div{
-    padding-top: 2rem;
-}
-
-.title-p{
-    margin: 7% auto;
-}
-
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-
-/* new stuff */
-.animate {
-    animation-duration: 0.5s;
-    animation-name: animate-fade;
-    animation-delay: 0.5s;
-    animation-fill-mode: backwards;
-  }
-  
-  @keyframes animate-fade {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
 
 
 /* ------------Navigation Bar ---------------------*/
@@ -65,16 +30,17 @@ h5{
     font-weight: 400;
 }
 
-.logo-img{
-    width: 10%;
+.logo-img {
     margin: 3%;
+    width: 10%;
 }
 
 /* Download Buttons */
 
-.download-buttons{
+.download-buttons {
     margin: auto;
 }
+
 .download-button {
     margin: 5% 3% 5% 0;
 }
@@ -82,19 +48,59 @@ h5{
 /* tittle-img */
 
 .title-img {
-    width: 90%;
     padding-left: 2rem;
+    width: 90%;
+}
+
+/* ---------------Tittle----------------------------- */
+
+
+#title {
+    background-color: #FFCC29;
+    color: white;
+    text-align: left;
+}
+
+.title-left-div {
+    padding-top: 2rem;
+}
+
+.title-p {
+    margin: 7% auto;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* new stuff */
+.animate {
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
+    animation-fill-mode: backwards;
+    animation-name: animate-fade;
+}
+
+@keyframes animate-fade {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 
 
 /* ----------------------features----------------------- */
 #features {
-    padding: 7% ;
+    padding: 7%;
     position: relative;
 }
 
-#features p{
+#features p {
     color: #7F8487;
 }
 
@@ -103,20 +109,21 @@ h5{
 }
 
 .feature .icons {
+    color: #A3BB98;
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: #A3BB98;
 }
 
 .feature .icons:hover {
     color: #00AF91;
 }
 
-/* * Testimonials */ 
+/* * Testimonials */
 
-#testimonials{
+#testimonials {
     background-color: #F6F4E6;
 }
+
 .testimonial-img {
     border-radius: 100%;
     margin: 20px;
@@ -131,10 +138,9 @@ h5{
 /* pricing */
 #pricing {
     padding: 7%;
-
 }
 
-#pricing p{
+#pricing p {
     color: #7F8487;
 }
 
@@ -143,7 +149,7 @@ h5{
     font-size: 2.3rem;
 }
 
-.pricing-text{
+.pricing-text {
     margin-bottom: 5%;
 }
 
@@ -153,173 +159,162 @@ h5{
     width: 15rem;
 }
 
-.sign-up-bth{
+.sign-up-bth {
     border-radius: 10px;
 }
 
-
-
 /* ----------------subscribe------------------- */
 
-#subscribe{
+#subscribe {
     background-color: #FFCC29;
+    color: white;
     padding: 15%;
-    color: white;
 }
 
-form{
-    width: 50%;
-    margin: auto;
-    display: flex;
+form {
     align-items: center;
-
+    display: flex;
+    margin: auto;
+    width: 50%;
 }
 
-.form-control{
-    color: white;
-    border: solid 2px white;
-    border-radius: 20px;
+.form-control {
     background-color: transparent;
+    border-radius: 20px;
+    border: solid 2px white;
     box-shadow: none;
+    color: white;
+    font-size: 1.2rem;
     margin-right: 1rem;
     padding: 0.5rem;
-    font-size: 1.2rem;
-} 
+}
 
-.form-control::placeholder { 
+.form-control::placeholder {
     color: white;
-    opacity: 1; 
+    opacity: 1;
 }
 
 
-.subscribe-btn{
-    color: #FFCC29;
+.subscribe-btn {
     background-color: white;
     border: #FFCC29;
+    color: #FFCC29;
 }
 
-.subscribe-btn:hover{
+.subscribe-btn:hover {
     background-color: #00AF91;
 }
 
-.subscribe-content{
+.subscribe-content {
     margin: 6% auto;
 }
 
 
 /*-------------------- Download ---------*/
-#download{
-    padding: 8%;
-    width: 100%;
-    height: 500px;
+#download {
+    align-items: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #7F8487;
+    background-image: url(/imgs/download-bg5.png);
     background-position: center;
     background-size: cover;
-
-    /* important!! color above img */
-    background-color: #7F8487; 
-    background-image: url(/imgs/download-bg5.png);
-    background-attachment: fixed;
-
-    /* make the img looks filted */
-    background-blend-mode: multiply; 
-
-
     color: white;
     display: flex;
+    height: 500px;
     justify-content: center;
-    align-items: center;
+    padding: 8%;
+    width: 100%;
+
+    /* important!! color above img */
+    /* make the img looks filted */
 }
 
-.download-bg{
+.download-bg {
     position: fixed;
 }
 
-.download-now-content{
+.download-now-content {
     padding-top: 2rem;
 }
 
-
-
 /*-------------------- Contact ---------------------*/
-#contact{
-    background-color:#434242;
+#contact {
+    background-color: #434242;
+    font-size: small;
     margin: auto 0;
     padding: 7%;
-    font-size: small;
 }
 
-.p5{
+.p5 {
     padding: 3rem;
 }
 
-.contact-form{
+.contact-form {
     background-color: white;
     border-radius: 10px;
     padding: 2rem;
 }
 
-.padding1{
+.padding1 {
     padding: 7%;
 }
 
-.contact-form-item::placeholder { 
+.contact-form-item::placeholder {
     color: #434242;
-    opacity: 1; 
+    opacity: 1;
 }
 
-.contact-form-item{
+.contact-form-item {
     border: solid 2px #434242
 }
 
-.contact-right{
+.contact-right {
     padding: 7%;
 }
 
 
-.footer-icon{
+.footer-icon {
     color: #B2B2B2;
-    padding: 1rem;
     font-size: 1.2rem;
-
+    padding: 1rem;
 }
 
-.nav-item{
+.nav-item {
     color: #B2B2B2;
     padding: 1rem;
 }
 
-.footer-icon:hover{
+.footer-icon:hover {
     color: #DDDDDD;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     color: #DDDDDD;
-
 }
 
-.about{
+.about {
     padding-left: 0;
 }
 
-
-
 /* --------------------responsive -----------------------*/
 @media(max-width: 991px) {
+
     .title-img {
-        padding-top: 8%;
+        margin: 0 30%;
         padding-left: 0;
+        padding-top: 8%;
         position: static;
         transform: rotate(0);
         width: 40%;
-        margin: 0 30%;
     }
 
-    .title-img-div{
+    .title-img-div {
         margin: auto;
     }
 
-
-    h1,.center-p {
+    h1,
+    .center-p {
         text-align: center;
     }
 
@@ -329,14 +324,12 @@ form{
         width: 25rem;
     }
 
-    .about{
-        text-align: center;
+    .about {
         line-height: 1rem;
+        text-align: center;
     }
 
-    #contact{
+    #contact {
         padding: 8% 15% 0 15%;
-
     }
-
 }
